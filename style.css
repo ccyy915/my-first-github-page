@@ -1,0 +1,226 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+a{
+    text-decoration: none;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* body */
+body {
+    font-family: 'Open Sans', serif;
+    line-height: 1.5;
+}
+
+/* header */
+.header {
+    background-color: #343a40;
+}
+
+.header-container{
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 10px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container a{
+    display: inline-block;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.header-container button{
+    display: inline-block;
+    background-color: #343a40;
+    height: 30px;
+    width: 30px;
+    border: 1px solid gray;
+    border-radius: 25%;
+}
+
+.main {
+    background-color: #ffffff;
+}
+
+.main-container{
+    margin: 3.5em auto;
+    width: 75%;
+    padding: 25px 15px;
+}
+
+.main-item{
+    text-align: center;
+}
+
+.main-item h1{
+    font-size: 2em;
+    margin: 20px auto;
+}
+
+.main-description{
+    font-weight: lighter;
+    margin: 20px auto;
+    max-width: 50vw;
+}
+
+.main-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-button .btn-left{
+    margin-right: 5px;
+    padding: 0.5em 0.8em;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    border:1px solid transparent;
+    border-radius: 0.3em;
+}
+
+.main-button .btn-right{
+    padding: 0.5em 0.8em;
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    border:1px solid transparent;
+    border-radius: 0.3em;
+}
+
+.card{
+    background-color: #f8f9fa;
+    margin: 0 auto;
+    padding: 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-item{    
+    max-width: 28%;
+    flex: 28% ;
+    border:1px solid gray;
+	border-radius: 5px;
+	margin:10px auto;
+}
+
+.card-content{  
+    padding: 20px;
+}
+
+.card-content p{  
+    margin:10px auto;
+}
+
+.card-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-button{
+    justify-content: flex-start;
+    position: relative;
+    display: flex;
+    vertical-align: middle;
+}
+
+.card-button button{
+    position: relative;
+    flex: 1 1 auto;
+    padding: 8px;
+    color: gray;
+}
+
+.button-group-left {
+    border: 1px solid gray;
+    border-radius:5px 0px 0px 5px;;
+}
+
+.button-group-right {
+    border: 1px solid gray;
+    border-radius:0px 5px 5px 0px;;
+}
+
+.button-group-left:hover, .button-group-right:hover{
+    background-color: gray;
+    color: white;
+}
+
+.card-small{
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color:#6c757d;
+}
+
+.footer{
+    background-color: #fff;
+    padding: 2.5em 5em;
+}
+
+.footer-container{
+    color:gray;
+}
+
+.footer-container p a{
+    color:DodgerBlue;
+}
+
+.footer-container a:hover{
+    color:steelblue;
+    text-decoration:underline;
+}
+
+.footer-backtotop{
+    float: right;
+}
+
